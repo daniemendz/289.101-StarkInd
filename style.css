@@ -12,20 +12,22 @@
 
 /* md (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    .green {
-        height: 180px;
-    }
+    
 }
 
 /* lg (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    .green {
-        height: 250px;
-    }
-    .grey {
-        height: 250px;
-    }
+    
 }
 
 /* xl (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav{
+    position: fixed;
+    
+}
