@@ -1,6 +1,5 @@
  * { outline: cyan solid 3px; }
 
-
 /* No media query for `xs` since this is the default in Bootstrap, HERE WE WRITE EXCEPTIONS*/
                 
 /* sm (landscape phones, 576px and up)*/
@@ -21,11 +20,27 @@
 /* xl (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
 
-html {
+
+
+
+html{
     scroll-behavior: smooth;
 }
 
-.nav{
-    position: fixed;
-    
+.navigation{
+    height:90px
+}
+
+.links{
+    margin: 20px;
+    font-size: 1.rem;
+    text-align: right;
+}
+.links a{
+    color: #000;
+    margin: 15px;
+}
+.links a:hover{
+    color: darkcyan;
+    text-decoration: none;
 }
