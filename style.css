@@ -1,8 +1,7 @@
- * { outline: cyan solid 3px; }
+/* *  { outline: cyan solid 3px; }*/
 
-/* No media query for `xs` since this is the default in Bootstrap, HERE WE WRITE EXCEPTIONS*/
-                
-/* sm (landscape phones, 576px and up)*/
+
+/* No media query for `xs` since this is the default in Bootstrap, HERE WE WRITE EXCEPTIONS*/       /* sm (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
 }
@@ -25,6 +24,10 @@
 
 html{
     scroll-behavior: smooth;
+}
+
+body{
+    background-color: #000;
 }
 
 /*NAVIGATION*/
@@ -58,11 +61,12 @@ html{
 
 /*HOME*/
 #home{
-    height: 100%;
+    background-color: #000;
+    position:relative;
 }
 
 .carouselExampleIndicators{
-    position:relative;
+    height: 100%;
 }
 .carousel-content {
     position: absolute;
