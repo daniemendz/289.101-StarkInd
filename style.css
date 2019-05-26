@@ -3,19 +3,20 @@
 
 /* No media query for `xs` since this is the default in Bootstrap, HERE WE WRITE EXCEPTIONS*/       /* sm (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-    .carousel-inner{height: 1090px;transform:scale(1);} 
+    .carousel-inner{height: 1050px;transform:scale(1);} 
     .carousel-item img{max-width: 700px; margin:auto;}
 }
 
 /* md (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    .carousel-inner{max-height: 1100px;} 
-    .carousel-item img{max-width: 900px; margin:auto;}
+    .carousel-inner{max-height: 1300px;} 
+    .carousel-item img{max-width: 800px; margin:auto;}
+    .submit-btn{text-align: right;}
 }
 
 /* lg (desktops, 992px and up)*/
 @media (min-width: 992px) {
-   .carousel-inner{max-height: 800px;} 
+    .carousel-inner{max-height: 800px;} 
     .carousel-item img{max-width: 1000px; margin:auto;transform: scale(1);}
     
 }
@@ -28,6 +29,11 @@
 
 html{
     scroll-behavior: smooth;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -49,11 +55,13 @@ body{
     padding-top: 20px;
     padding-left: 20px;
     width:300px;
-    opacity: 0.8;
+    filter: opacity(0.75);
 }
 
 .logo img:hover{
-    opacity: 1;
+    filter: opacity(1);
+    transform: scale(1.01);
+    transition: 0.2s;
 }
 
 .links{
@@ -70,6 +78,7 @@ body{
     color: lightskyblue;
     text-decoration: none;
     opacity: 1;
+    transition: 0.2s;
 }
 
 /*HOME*/
@@ -103,26 +112,35 @@ body{
 
 /*CONTACT*/
 .contact{
-    height: 815px;
+    height: 700px;
     width: 1000px;
     background-color: white;
-    padding: 40px;
+    padding: 50px;
     padding-top: 90px;
 }
 
+.contact h1{
+    margin-bottom: 30px;
+}
 .contact form{
-    max-width: 900px;
+    max-width: 900px; /*Remember*/
     margin: auto;
 }
-
-.notes{
-    height: 300px;
+textarea{
+    resize: none;
 }
+.btn{
+    text-align: left;
+}
+
 
 /*FOOTER*/
 .footer{
-    height: 815px;
     background-color: aliceblue;
+    height: 450px;
+    padding: 50px;
+    padding-top: 90px;
 }
+
 
 
