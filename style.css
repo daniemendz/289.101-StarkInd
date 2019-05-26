@@ -43,12 +43,16 @@ body{
     height:80px;
     width:100%;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
 
+.logo img{
+    padding-top: 20px;
+    padding-left: 20px;
+    width:300px;
 }
 
 .links{
-    background-color: aqua
-    margin: 25px 10px;
+    padding: 25px 40px;
     font-size: 1.rem;
     text-align: right;
 }
@@ -89,9 +93,19 @@ body{
 /*CONTACT*/
 .contact{
     height: 815px;
+    width: 1000px;
     background-color: white;
     padding: 50px;
     padding-top: 85px;
+}
+
+.contact form{
+    max-width: 900px;
+    margin: auto;
+}
+
+.notes{
+    height: 300px;
 }
 
 /*FOOTER*/
