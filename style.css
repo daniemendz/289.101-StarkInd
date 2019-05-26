@@ -4,16 +4,19 @@
 /* No media query for `xs` since this is the default in Bootstrap, HERE WE WRITE EXCEPTIONS*/       /* sm (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     .carousel-inner{height: 1090px;transform:scale(1);} 
+    .carousel-item img{max-width: 700px; margin:auto;}
 }
 
 /* md (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    .carousel-inner{max-height: 1000px;transform:scale(1.5);} 
+    .carousel-inner{max-height: 1100px;} 
+    .carousel-item img{max-width: 900px; margin:auto;}
 }
 
 /* lg (desktops, 992px and up)*/
 @media (min-width: 992px) {
-   .carousel-inner{max-height: 800px;transform:scale(2);} 
+   .carousel-inner{max-height: 800px;} 
+    .carousel-item img{max-width: 1000px; margin:auto;transform: scale(1);}
     
 }
 
@@ -81,7 +84,6 @@ body{
 
 .carousel-inner{
     background-position:bottom;
-    transform:scale(1.25);
 }
 
 /*CONTACT*/
