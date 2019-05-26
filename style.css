@@ -1,4 +1,4 @@
-/* *  { outline: cyan solid 3px; }*/
+/**  { outline: cyan solid 3px; }*/
 
 
 /* No media query for `xs` since this is the default in Bootstrap, HERE WE WRITE EXCEPTIONS*/       /* sm (landscape phones, 576px and up)*/
@@ -34,18 +34,15 @@ body{
 .header{
     position: fixed;
     z-index: 3;
-    top: 0;
-    width: 100%;
-    background-color: #fff;
+    top: 20;
+    background-color: white;
     height:80px;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
-}
-.nav{
-    max-width: 1000px; /*IMPORTANAAANTT*/
-    margin: auto; /*Center nav*/
+
 }
 
 .links{
+    background-color: aqua
     margin: 25px 10px;
     font-size: 1.rem;
     text-align: right;
