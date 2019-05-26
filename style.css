@@ -1,29 +1,6 @@
 /**  { outline: cyan solid 3px; }*/
 
 
-/* No media query for `xs` since this is the default in Bootstrap, HERE WE WRITE EXCEPTIONS*/       /* sm (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-    .carousel-inner{height: 1050px;transform:scale(1);} 
-    .carousel-item img{max-width: 700px; margin:auto;}
-}
-
-/* md (tablets, 768px and up)*/
-@media (min-width: 768px) {
-    .carousel-inner{max-height: 1300px;} 
-    .carousel-item img{max-width: 800px; margin:auto;}
-    .submit-btn{text-align: right;}
-}
-
-/* lg (desktops, 992px and up)*/
-@media (min-width: 992px) {
-    .carousel-inner{max-height: 800px;} 
-    .carousel-item img{max-width: 1000px; margin:auto;transform: scale(1);}
-    
-}
-
-/* xl (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
-
 
 
 
@@ -52,9 +29,9 @@ body{
 }
 
 .logo img{
-    padding-top: 20px;
+    padding-top: 25px;
     padding-left: 20px;
-    width:300px;
+    max-width:220px;
     filter: opacity(0.75);
 }
 
@@ -65,13 +42,13 @@ body{
 }
 
 .links{
-    padding: 25px 40px;
-    font-size: 1.rem;
+    padding: 27px 40px;
+    font-size: 0.8rem;
     text-align: right;
 }
 .links a{
     color: white;
-    margin: 15px;
+    margin:15px;
     opacity: 0.6;
 }
 .links a:hover{
@@ -88,19 +65,18 @@ body{
 }
 
 .logoHome{
-    width:500px;
+    max-width:400px;
 }
 
 .carousel-content {
     position: absolute;
     text-align: center;
     left: 50%;
-    margin-left: -250px;
+    margin-left: -200px;
     top: 50%;
-    margin-top: -250px;
+    margin-top: -150px;
     z-index: 2;
     color: white;
-    text-shadow: 0 1px 2px rgba(2,0,0,.7);
 }
 .carousel-indicators{
     z-index: 2;
@@ -108,11 +84,20 @@ body{
 
 .carousel-inner{
     background-position:bottom;
+    height:700px;
+}
+.carousel-item img{
+    max-width: 550px;
+    margin:auto;
+}
+
+.carbtn{
+    margin:10px;
 }
 
 /*CONTACT*/
 .contact{
-    height: 700px;
+    height: 720px;
     width: 1000px;
     background-color: white;
     padding: 50px;
@@ -123,7 +108,7 @@ body{
     margin-bottom: 30px;
 }
 .contact form{
-    max-width: 900px; /*Remember*/
+    max-width: 850px; /*Remember*/
     margin: auto;
 }
 textarea{
@@ -143,4 +128,30 @@ textarea{
 }
 
 
+/* No media query for `xs` since this is the default in Bootstrap, HERE WE WRITE EXCEPTIONS*/       /* sm (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .carousel-inner{max-height: 1300px;transform:scale(1);} 
+    .logo img{padding-top: 20px;
+    max-width:250px;}
+}
 
+/* md (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .submit-btn{text-align: right;}
+    .links a{margin:30px;}
+    
+}
+
+/* lg (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .carousel-inner{max-height: 700px;} 
+    .carousel-item img{max-width: 900px;}
+    .logoHome{max-width:500px;}
+    .carousel-content {
+    margin-left: -250px;
+    margin-top: -190px;}
+    
+}
+
+/* xl (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
