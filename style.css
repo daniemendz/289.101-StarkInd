@@ -37,9 +37,9 @@ body{
 /*NAVIGATION*/
 .header{
     position: fixed;
-    z-index: 3;
+    z-index: 10;
     top:0;
-    background-color: white;
+    background-color: black;
     height:80px;
     width:100%;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
@@ -49,6 +49,11 @@ body{
     padding-top: 20px;
     padding-left: 20px;
     width:300px;
+    opacity: 0.8;
+}
+
+.logo img:hover{
+    opacity: 1;
 }
 
 .links{
@@ -57,12 +62,14 @@ body{
     text-align: right;
 }
 .links a{
-    color: #000;
+    color: white;
     margin: 15px;
+    opacity: 0.6;
 }
 .links a:hover{
-    color: darkcyan;
+    color: lightskyblue;
     text-decoration: none;
+    opacity: 1;
 }
 
 /*HOME*/
@@ -72,18 +79,22 @@ body{
 }
 
 .logoHome{
-    width:600px;
+    width:500px;
 }
+
 .carousel-content {
     position: absolute;
     text-align: center;
     left: 50%;
-    margin-left: -290px;
+    margin-left: -250px;
     top: 50%;
     margin-top: -250px;
     z-index: 2;
     color: white;
     text-shadow: 0 1px 2px rgba(2,0,0,.7);
+}
+.carousel-indicators{
+    z-index: 2;
 }
 
 .carousel-inner{
@@ -95,8 +106,8 @@ body{
     height: 815px;
     width: 1000px;
     background-color: white;
-    padding: 50px;
-    padding-top: 85px;
+    padding: 40px;
+    padding-top: 90px;
 }
 
 .contact form{
