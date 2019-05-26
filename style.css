@@ -34,9 +34,10 @@ body{
 .header{
     position: fixed;
     z-index: 3;
-    top: 20;
+    top:0;
     background-color: white;
     height:80px;
+    width:100%;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
 
 }
@@ -62,9 +63,6 @@ body{
     position:relative;
 }
 
-.carouselExampleIndicators{
-    height: 100%;
-}
 .carousel-content {
     position: absolute;
     text-align: center;
@@ -81,6 +79,7 @@ body{
 .contact{
     height: 815px;
     background-color: cyan;
+    padding: 40px;
 }
 
 /*FOOTER*/
