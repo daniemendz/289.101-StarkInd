@@ -1,4 +1,4 @@
-*  { outline: cyan solid 1px; }
+*d  { outline: cyan solid 1px; }
 
 
 
@@ -148,12 +148,12 @@ textarea{
 /* PRODUCTS PAGE*/
 
 .videosection {
-    padding-top: 100px;
-    height: 700px;
+    padding-top: 80px;
+    height: 500px;
     margin: auto; 
 }
 
-.videosection h1{
+.videosection h1, p{
     color: white;
 }
 
@@ -162,7 +162,7 @@ iframe {
 }
                 
 .productGallery {
-    height: 730px;
+    height: 830px;
     background-color: white;
 }
 
@@ -176,10 +176,6 @@ iframe {
     margin: auto;
 }
 
-.red {
-    background-color: firebrick;
-    height: 300px;
-}
 
 /* No media query for `xs` since this is the default in Bootstrap, HERE WE WRITE EXCEPTIONS*/       /* sm (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -197,11 +193,7 @@ iframe {
     .productGallery {
         height: 570px;
     }
-                    
-    .red {
-        height: 570px;
-    }
-                    
+                                
     .productItem {
         height: 180px;
     }
