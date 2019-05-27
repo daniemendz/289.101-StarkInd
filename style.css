@@ -164,19 +164,25 @@ iframe {
 }
                 
 .productGallery {
-    height: 830px;
+    width:100%;
+    height: 900px;
     background-color: white;
+    
 }
-
-.productItem {
-    height: 300px;
-    padding: auto;
+.gallery{
+    max-width: 850px; /*Remember*/
+    margin: auto; 
 }
 
 .productItem img{
-    height: 200px;
-    margin: auto;
+    width: 100%;
+    margin: 5px;
 }
+.vlurb{
+    padding-left:40px;
+    max-width: 
+}
+
 
 /*ABOUT*/
 #carouselAbout .carousel-inner{
@@ -205,9 +211,11 @@ iframe {
 }
 
 .aboutSection{
+    color: black;
     filter: opacity(0.7);
 }
 .aboutSection p{
+    color: black;
     margin-right: 17px;
 }
 
@@ -224,6 +232,7 @@ iframe {
     padding-bottom: 20px;
 }
 .profile h3, .profile p{
+    color: black;
     filter: opacity(0.7);
 }
 .profiles{
@@ -234,8 +243,9 @@ iframe {
     padding-bottom: 20px;
 }
 .profpic img{
-    max-width:120px;
+    width:100%;
     padding-right: 10px;
+    text-align: right;
 }
 
 
@@ -254,15 +264,6 @@ iframe {
     .footer{height:200px;}
     .about{height: 700px;}
     
-    .productGallery {
-        height: 570px;
-    }
-                                
-    .productItem {
-        height: 180px;
-    }
-    
-}
 
 /* lg (desktops, 992px and up)*/
 @media (min-width: 992px) {
