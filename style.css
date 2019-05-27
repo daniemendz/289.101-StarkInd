@@ -1,4 +1,4 @@
-/**  { outline: cyan solid 3px; }*/
+*  { outline: cyan solid 1px; }
 
 
 
@@ -145,6 +145,26 @@ textarea{
     color: lightskyblue;
 }
 
+/* PRODUCTS PAGE*/
+
+.barfVideo {
+    margin-top: 80px;
+    height: 500px;
+    margin: auto; 
+}
+                
+.productGallery {
+    height: 730px;
+}
+
+.productItem {
+    height: 250px;
+}
+
+.red {
+    background-color: firebrick;
+    height: 300px;
+}
 
 /* No media query for `xs` since this is the default in Bootstrap, HERE WE WRITE EXCEPTIONS*/       /* sm (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -159,6 +179,18 @@ textarea{
     .links a{margin:30px;}
     .footer{height:200px;}
     
+    .productGallery {
+        height: 570px;
+    }
+                    
+    .red {
+        height: 570px;
+    }
+                    
+    .productItem {
+        height: 180px;
+    }
+    
 }
 
 /* lg (desktops, 992px and up)*/
@@ -171,6 +203,7 @@ textarea{
     margin-top: -190px;}
     
 }
+
 
 /* xl (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
