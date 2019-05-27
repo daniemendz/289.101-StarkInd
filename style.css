@@ -48,7 +48,7 @@ body{
 }
 .links a{
     color: white;
-    margin:15px;
+    margin:12px;
     opacity: 0.6;
 }
 .links a:hover{
@@ -143,6 +143,25 @@ textarea{
 .footerSection a:hover{
     text-decoration: none;
     color: lightskyblue;
+}
+
+/*ABOUT*/
+#carouselAbout .carousel-inner{
+    background-color: #333;
+    background-position:bottom;
+    height:auto;
+    margin-top: 80px;
+}
+#carouselAbout .carousel-item img{
+    max-width: 1000px;
+    margin:auto;    
+}
+.about{
+    height: 720px;
+    width: 100%;
+    background-color: white;
+    padding: 50px;
+    padding-top: 90px;
 }
 
 
