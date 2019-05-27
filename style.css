@@ -147,18 +147,33 @@ textarea{
 
 /* PRODUCTS PAGE*/
 
-.barfVideo {
-    margin-top: 80px;
-    height: 500px;
+.videosection {
+    padding-top: 100px;
+    height: 700px;
     margin: auto; 
+}
+
+.videosection h1{
+    color: white;
+}
+
+iframe {
+    margin:auto;
 }
                 
 .productGallery {
     height: 730px;
+    background-color: white;
 }
 
 .productItem {
-    height: 250px;
+    height: 300px;
+    padding: auto;
+}
+
+.productItem img{
+    height: 200px;
+    margin: auto;
 }
 
 .red {
