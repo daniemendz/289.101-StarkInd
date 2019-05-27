@@ -58,6 +58,11 @@ body{
     transition: 0.2s;
 }
 
+.activeLink b{
+    color: lightskyblue;
+}
+
+
 /*HOME*/
 #home{
     background-color: #000;
