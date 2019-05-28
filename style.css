@@ -167,7 +167,7 @@ textarea{
 }
 
 .video{
-    background-color: #333;
+    background-color: lightgrey;
     height: 330px;
 }
 .barfVideo, iframe{
@@ -239,11 +239,11 @@ textarea{
 
 /*OUR PEOPLE*/
 .ourPeople{
-    height: 950px;
+    height: 100%;
     width: 100%;
     background-color: lightgrey;
     padding: 50px;
-    padding-top: 90px;
+    padding-top: 80px;
 }
 .ourPeople h1{
     padding-bottom: 20px;
@@ -267,6 +267,27 @@ textarea{
 .bio{
     padding: 0px 10px;
     margin: 3% 0%;
+}
+
+/*THANK YOU */
+.image-content {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    margin-left: -100px;
+    top: 50%;
+    margin-top: 5%;
+    z-index: 2;
+    color: white;
+}
+
+.image-outer{
+    background-position:bottom;
+    height:700px;
+}
+.image-item img{
+    max-width: 550px;
+    margin:auto;
 }
 
 
@@ -304,6 +325,7 @@ textarea{
     .about{height: 600px;}
     .profpic img{width:100%;margin-left: -13%;}
     h4 {text-align: left;margin-right: -18%;}
+    .video{height: 350px;}
     
 }
 
