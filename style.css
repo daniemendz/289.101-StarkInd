@@ -167,7 +167,7 @@ textarea{
 }
 
 .video{
-    background-color: lightgrey;
+    background-color: white;
     height: 330px;
 }
 .barfVideo, iframe{
@@ -206,7 +206,7 @@ textarea{
 
 /*ABOUT*/
 #carouselAbout .carousel-inner{
-    background-color: #333;
+    background-color: #222;
     background-position:bottom;
     height:auto;
     margin-top: 80px;
