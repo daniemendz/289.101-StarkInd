@@ -276,16 +276,16 @@ textarea{
     left: 50%;
     margin-left: -100px;
     top: 50%;
-    margin-top: 5%;
+    margin-top: -100px;
     z-index: 2;
     color: white;
 }
 
 .image-outer{
-    background-position:bottom;
-    height:700px;
+    height:100%;
 }
 .image-item img{
+    padding-top: 400px;
     max-width: 550px;
     margin:auto;
 }
