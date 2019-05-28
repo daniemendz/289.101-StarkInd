@@ -73,14 +73,14 @@ h1{
 }
 
 .logoHome{
-    max-width:400px;
+    max-width:300px;
 }
 
 .carousel-content {
     position: absolute;
     text-align: center;
     left: 50%;
-    margin-left: -200px;
+    margin-left: -150px;
     top: 50%;
     margin-top: -150px;
     z-index: 2;
@@ -151,7 +151,7 @@ textarea{
 /* PRODUCTS PAGE*/
 
 .products{
-    height: 550px;
+    height: 100%;
     width: 100%;
     background-color: white;
     padding: 50px;
@@ -216,7 +216,7 @@ textarea{
     margin:auto;    
 }
 .about{
-    height: 950px;
+    height: 100%;
     width: 100%;
     background-color: white;
     padding: 50px;
