@@ -168,7 +168,7 @@ textarea{
 
 .video{
     background-color: #333;
-    height: 300px;
+    height: 330px;
 }
 .barfVideo, iframe{
     margin: auto;
@@ -257,15 +257,16 @@ textarea{
     margin: auto;    
 }
 .profile{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .profpic img{
     width:90%;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
 }
 .bio{
     padding: 0px 10px;
-    
+    margin: 3% 0%;
 }
 
 
@@ -285,6 +286,10 @@ textarea{
     .footer{height:200px;}
     .about{height: 650px;}
     .products{height: 390px;}
+    .profpic img{width:50%;
+    margin-left: 13%;}
+    h4 {text-align: center;margin-right: 18%;}
+    
 }
     
 
@@ -297,6 +302,8 @@ textarea{
     margin-left: -250px;
     margin-top: -190px;}
     .about{height: 600px;}
+    .profpic img{width:100%;margin-left: -13%;}
+    h4 {text-align: left;margin-right: -18%;}
     
 }
 
