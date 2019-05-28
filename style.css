@@ -269,6 +269,27 @@ textarea{
     margin: 3% 0%;
 }
 
+/*THANK YOU */
+.image-content {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    margin-left: -100px;
+    top: 50%;
+    margin-top: 5%;
+    z-index: 2;
+    color: white;
+}
+
+.image-outer{
+    background-position:bottom;
+    height:700px;
+}
+.image-item img{
+    max-width: 550px;
+    margin:auto;
+}
+
 
 /* No media query for `xs` since this is the default in Bootstrap, HERE WE WRITE EXCEPTIONS*/       /* sm (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
