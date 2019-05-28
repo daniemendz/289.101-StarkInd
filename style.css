@@ -1,4 +1,4 @@
-*d  { outline: cyan solid 1px; }
+/**  { outline: cyan solid 1px; }*/
 
 
 
@@ -16,8 +16,9 @@ html, body {
 body{
     background-color: #000;
 }
-
-
+h1{
+    padding-bottom: 20px;
+}
 
 /*NAVIGATION*/
 .header{
@@ -149,23 +150,37 @@ textarea{
 
 /* PRODUCTS PAGE*/
 
-.videosection {
-    padding-top: 80px;
-    height: 500px;
+.products{
+    height: 550px;
+    width: 100%;
+    background-color: white;
+    padding: 50px;
+    padding-top: 90px;
+}
+.productsArticle {
+    max-width: 850px; /*Remember*/
     margin: auto; 
 }
-
-.videosection h1, p{
-    color: white;
+.productsArticle p{
+    color: black;
+    filter: opacity(0.7)
 }
 
-iframe {
-    margin:auto;
+.video{
+    background-color: #333;
+    height: 300px;
 }
+.barfVideo, iframe{
+    margin: auto;
+    width:100%;
+    height: 100%;
+    max-width: 900px;
+}
+
                 
 .productGallery {
     width:100%;
-    height: 900px;
+    height: 1000px;
     background-color: white;
     
 }
@@ -202,9 +217,6 @@ iframe {
     padding: 50px;
     padding-top: 90px;
 }
-.about h1{
-    padding-bottom: 20px;
-}
 .aboutArticle{
     max-width: 850px; /*Remember*/
     margin: auto;    
@@ -236,16 +248,19 @@ iframe {
     filter: opacity(0.7);
 }
 .profiles{
-    max-width: 850px; /*Remember*/
+    max-width: 900px; /*Remember*/
     margin: auto;    
 }
 .profile{
     padding-bottom: 20px;
 }
 .profpic img{
-    width:100%;
-    padding-right: 10px;
-    text-align: right;
+    width:90%;
+    padding-bottom: 10px;
+}
+.bio{
+    padding: 0px 10px;
+    
 }
 
 
@@ -254,7 +269,7 @@ iframe {
     .carousel-inner{height: 750px;} 
     .logo img{padding-top: 20px;
     max-width:250px;}
-    .about{height:760px;}
+    .about{height:790px;}
 }
 
 /* md (tablets, 768px and up)*/
@@ -262,7 +277,7 @@ iframe {
     .submit-btn{text-align: right;}
     .links a{margin:30px;}
     .footer{height:200px;}
-    .about{height: 700px;}
+    .about{height: 650px;}
     
 
 /* lg (desktops, 992px and up)*/
