@@ -95,6 +95,7 @@ h1{
     height:700px;
 }
 .carousel-item img{
+    padding-top: 5%;    
     max-width: 550px;
     margin:auto;
 }
@@ -304,6 +305,7 @@ textarea{
     max-width:250px;}
     .about{height:790px;}
     .products{height: 450px;}
+    .carousel-item img{padding-top: 0%;}
 }
 
 /* md (tablets, 768px and up)*/
